@@ -8,7 +8,7 @@ interface CardProps {
 }
 
 const Card: React.FC<CardProps> = ({ imageUrl, altText, name }) => {
-  const imagePath = `${import.meta.env.BASE_URL}src/assets/${imageUrl}`;
+  const imagePath = `${import.meta.env.BASE_URL}public/${imageUrl}`;
   return (
     <div className="relative w-full pb-full ">
       <img className="w-full h-full rounded-lg" src={imagePath} alt={altText} />
