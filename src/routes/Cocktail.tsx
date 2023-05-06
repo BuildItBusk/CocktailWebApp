@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { Tab } from "@headlessui/react";
 
 interface Cocktail {
   name: string;
