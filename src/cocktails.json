@@ -1,0 +1,89 @@
+[
+    {
+        "name": "Mai Tai",
+        "ingredients": [
+            {
+                "name": "Jamaica Rum",
+                "quantity": 30,
+                "unit": "ml"
+            },
+            {
+                "name": "Martinique Rum",
+                "quantity": 30,
+                "unit": "ml"
+            },
+            {
+                "name": "Orange Curacao",
+                "quantity": 15,
+                "unit": "ml"
+            },
+            {
+                "name": "Orgeat syrup",
+                "quantity": 15,
+                "unit": "ml"
+            },
+            {
+                "name": "Lime juice",
+                "quantity": 15,
+                "unit": "ml"
+            },
+            {
+                "name": "Mint",
+                "quantity": 1,
+                "unit": "sprig"
+            }
+        ],
+        "recipe": "",
+        "image": "mai-tai.jpg",
+        "story": "",
+        "video": ""
+    },
+    {
+        "name": "Zombie",
+        "ingredients": [
+            {
+                "name": "Dark Rum",
+                "quantity": 45,
+                "unit": "ml"
+            },
+            {
+                "name": "White Rum",
+                "quantity": 45,
+                "unit": "ml"
+            },
+            {
+                "name": "Apricot Brandy",
+                "quantity": 30,
+                "unit": "ml"
+            },
+            {
+                "name": "Pineapple juice",
+                "quantity": 30,
+                "unit": "ml"
+            },
+            {
+                "name": "Lime juice",
+                "quantity": 30,
+                "unit": "ml"
+            },
+            {
+                "name": "Papaya juice",
+                "quantity": 30,
+                "unit": "ml"
+            },
+            {
+                "name": "Sugar syrup",
+                "quantity": 15,
+                "unit": "ml"
+            },
+            {
+                "name": "151-proof rum",
+                "quantity": 15,
+                "unit": "ml"
+            }
+        ],
+        "recipe": "",
+        "image": "zombie.jpg",
+        "story": ""
+    }
+]
