@@ -28,7 +28,7 @@ const Cocktail = () => {
   const { cocktailId } = useParams<CocktailParams>();
   const cocktailIdString = cocktailId ?? '';
   const [cocktail, setCocktail] = useState<Cocktail | null>(null);
-  const imagePath = `${import.meta.env.BASE_URL}public/${cocktail?.image}`;
+  const imagePath = `/${cocktail?.image}`;
 
   useEffect(() => {
     fetchCocktailByName(cocktailIdString).then(setCocktail);
