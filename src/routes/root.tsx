@@ -1,6 +1,6 @@
 import './root.css'
 import CardLink from './CardLink';
-import cocktails from '../cocktails.json';
+import { useEffect, useState } from "react";
 
 function Root() {
   
@@ -16,6 +16,28 @@ function Root() {
     story?: string;
     video?: string;
   }
+
+  async function fetchCocktails(): Promise<Cocktail[]> {
+    return fetch('/cocktails.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`Failed to fetch cocktails: ${response.status} ${response.statusText}`);
+        }
+        return response.json();
+      })
+      .then((data: Cocktail[]) => data)
+      .catch(error => {
+        console.error(error);
+        return [] as Cocktail[];
+      });
+  }
+
+  const [cocktails, setCocktails] = useState<Cocktail[]>([]);
+  
+  useEffect(() => {
+    fetchCocktails().then(data => setCocktails(data));
+  }, []);
+  
 
   return (
     <>

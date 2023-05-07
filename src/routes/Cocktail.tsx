@@ -19,7 +19,7 @@ type CocktailParams = {
 };
 
  async function fetchCocktailByName(name: string): Promise<Cocktail | null> {
-  return fetch(`${import.meta.env.BASE_URL}src/cocktails.json`)
+  return fetch('/cocktails.json')
     .then((response) => response.json())
     .then((cocktails: Cocktail[]) => cocktails.find((c) => c.name === name) ?? null);
 }
