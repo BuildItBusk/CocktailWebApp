@@ -49,6 +49,9 @@ const Cocktail = () => {
                     </li>
                   ))}
                 </ul>
+                <p className="mt-12 text-xl md:text-3xl">
+                  {cocktail?.recipe}
+                </p>
               </div>
             </div>
           </div>
