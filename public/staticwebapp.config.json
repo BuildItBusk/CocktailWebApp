@@ -5,6 +5,10 @@
         "serve": "/index.html",
         "statusCode": 200
       }
-    ]
+    ],
+    "navigationFallback": {
+      "rewrite": "index.html",
+      "exclude": ["/static/media/*.{png,jpg,gif,svg}", "/static/css/*"]
+    }
   }
   
