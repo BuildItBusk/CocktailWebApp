@@ -1,0 +1,4 @@
+{
+    "route": "/cocktails*",
+    "rewrite": "/index.html"
+}
