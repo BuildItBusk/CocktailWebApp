@@ -24,6 +24,35 @@
         "video": ""
     },
     {
+        "name": "Painkiller",
+        "ingredients": [
+            {
+                "name": "Dark Rum",
+                "quantity": 60,
+                "unit": "ml"
+            },
+            {
+                "name": "Pineapple juice",
+                "quantity": 90,
+                "unit": "ml"
+            },
+            {
+                "name": "Orange juice",
+                "quantity": 30,
+                "unit": "ml"
+            },
+            {
+                "name": "Coconut cream",
+                "quantity": 30,
+                "unit": "ml"
+            }
+        ],
+        "recipe": "Shake all ingredients with crushed ice, or mix in it a milkshake machine. Open pour into a hurricane glass. Grate with nutmeg and serve.",
+        "image": "painkiller.jpg",
+        "story": "Unknown",
+        "video": ""
+    },
+    {
         "name": "Diaquiri",
         "ingredients": [
             {
@@ -42,9 +71,9 @@
                 "unit": "ml"
             }
         ],
-        "recipe": "The daiquiri is a cocktail made of rum, lime juice, and sugar, typically served over ice. It originated in Cuba, and its exact origins are somewhat disputed, but it is generally agreed that the drink was named after a beach near Santiago de Cuba. One popular story holds that the drink was invented by an American mining engineer named Jennings Cox, who was in Cuba during the Spanish-American War. According to this account, Cox ran out of gin while entertaining guests and used rum instead, adding lime and sugar to make the drink more palatable. Another theory suggests that the drink was actually created by Cuban workers in the town of Daiquiri, who mixed rum with lime juice and sugar to make a refreshing beverage. Regardless of its exact origins, the daiquiri gained popularity among Americans who visited Cuba during Prohibition, and the drink was soon being served in bars across the United States. In the 1940s, the daiquiri became a popular drink among Hollywood celebrities, and it remains a classic cocktail today. Over the years, variations of the daiquiri have emerged, including the frozen daiquiri and the strawberry daiquiri. However, the classic recipe remains a popular choice among cocktail enthusiasts, who appreciate its simplicity and refreshing taste.",
+        "recipe": "Shake all ingredients with plenty of ice and double strain into a Nick & Nora glass",
         "image": "diaquiri.jpg",
-        "story": "Unknown",
+        "story": "The daiquiri is a cocktail made of rum, lime juice, and sugar, typically served over ice. It originated in Cuba, and its exact origins are somewhat disputed, but it is generally agreed that the drink was named after a beach near Santiago de Cuba. One popular story holds that the drink was invented by an American mining engineer named Jennings Cox, who was in Cuba during the Spanish-American War. According to this account, Cox ran out of gin while entertaining guests and used rum instead, adding lime and sugar to make the drink more palatable. Another theory suggests that the drink was actually created by Cuban workers in the town of Daiquiri, who mixed rum with lime juice and sugar to make a refreshing beverage. Regardless of its exact origins, the daiquiri gained popularity among Americans who visited Cuba during Prohibition, and the drink was soon being served in bars across the United States. In the 1940s, the daiquiri became a popular drink among Hollywood celebrities, and it remains a classic cocktail today. Over the years, variations of the daiquiri have emerged, including the frozen daiquiri and the strawberry daiquiri. However, the classic recipe remains a popular choice among cocktail enthusiasts, who appreciate its simplicity and refreshing taste.",
         "video": ""
     },
     {
@@ -56,12 +85,17 @@
                 "unit": "ml"
             },
             {
-                "name": "Martinique Rum",
+                "name": "Light Rum",
                 "quantity": 30,
                 "unit": "ml"
             },
             {
                 "name": "Orange Curacao",
+                "quantity": 15,
+                "unit": "ml"
+            },
+            {
+                "name": "Demerara syrup",
                 "quantity": 15,
                 "unit": "ml"
             },
@@ -81,7 +115,7 @@
                 "unit": "sprig"
             }
         ],
-        "recipe": "",
+        "recipe": "Shake all ingredients with crushed ice and open pour into a tiki mug. Add more crushed ice if needed. Garnish with a sprig of mint and serve with a short straw.",
         "image": "mai-tai.jpg",
         "story": "",
         "video": ""
@@ -168,7 +202,7 @@
         "ingredients": [
             {
                 "name": "White Rum",
-                "quantity": 45,
+                "quantity": 60,
                 "unit": "ml"
             },
             {
@@ -178,11 +212,11 @@
             },
             {
                 "name": "Pineapple juice",
-                "quantity": 90,
+                "quantity": 120,
                 "unit": "ml"
             }
         ],
-        "recipe": "Blend all the ingredients with ice in a electric blender, pour into a large goblet or Hurricane glass and serve with straws.",
+        "recipe": "Blend all the ingredients with ice in a electric blender or shake with crushed ice. Open pour into a large goblet or Hurricane glass.",
         "image": "pina-colada.jpg",
         "story": "Unknown",
         "video": ""
