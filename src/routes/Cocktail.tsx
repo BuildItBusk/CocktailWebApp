@@ -43,7 +43,7 @@ const Cocktail = () => {
   return (
     <>
       <div className="container mx-auto">
-          <h1 className="mb-6">{ cocktail?.name }</h1>
+          <h1 className="text-4xl lg:text-6xl mb-6">{ cocktail?.name }</h1>
           <div className="flex justify-center items-center">
             <div className="w-max">
               <img src={imagePath} alt={cocktail?.name} className="mx-auto max-h-52 md:max-h-96 mb-6 rounded-lg" />
