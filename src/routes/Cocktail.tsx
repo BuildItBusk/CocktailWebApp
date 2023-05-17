@@ -32,7 +32,13 @@ const Cocktail = () => {
 
   useEffect(() => {
     fetchCocktailByName(cocktailIdString).then(setCocktail);
-  }, []);
+  }, [cocktailIdString]);
+
+  useEffect(() => {
+    if (cocktail) {
+      document.title = cocktail.name;
+    }
+  }, [cocktail]);
 
   return (
     <>
