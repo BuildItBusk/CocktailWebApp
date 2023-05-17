@@ -42,7 +42,7 @@ function Root() {
   return (
     <>
       <div className='w-full'>
-        <h1 className='mb-4'>All The Cocktails</h1>
+        <h1 className='mb-6 lg:mb-10 text-6xl'>All The Cocktails</h1>
         <div className='grid grid-cols-2 lg:grid-cols-3 gap-4'>
           {cocktails
             .sort((a, b) => a.name.localeCompare(b.name))
