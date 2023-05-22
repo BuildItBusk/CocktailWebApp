@@ -38,12 +38,17 @@ function Root() {
     fetchCocktails().then(data => setCocktails(data));
   }, []);
   
-
   return (
     <>
       <div className='w-full'>
-        <h1 className='mb-6 lg:mb-10 text-6xl'>All The Cocktails</h1>
-        <div className='grid grid-cols-2 lg:grid-cols-3 gap-4'>
+        <div className='text-left bg-black flex items-center h-12'>
+          <img src='/cocktail_icon.png' className='h-full ml-4' />
+          <h1 className='text-xl ml-1 font-bold inline-block align-middle'>
+            <span className='text-orange-200'>Dirty</span> Drinking
+          </h1>
+        </div>
+
+        <div className='grid grid-cols-2 lg:grid-cols-3 gap-4 m-6'>
           {cocktails
             .sort((a, b) => a.name.localeCompare(b.name))
             .map((cocktail: Cocktail) => (
