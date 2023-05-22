@@ -45,7 +45,7 @@ const Cocktail = () => {
       <div className="container mx-auto">
           <h1 className="text-4xl lg:text-6xl mb-6">{ cocktail?.name }</h1>
           <div className="flex justify-center items-center">
-            <div className="w-max">
+            <div className="w-max mx-10">
               <img src={imagePath} alt={cocktail?.name} className="mx-auto max-h-52 md:max-h-96 mb-6 rounded-lg" />
               <div className="text-left">
                 <ul className="list-disc ml-5">

@@ -42,7 +42,7 @@ function Root() {
     <>
       <div className='w-full'>
         <div className='text-left bg-black flex items-center h-12'>
-          <img src='/cocktail_icon.png' className='h-full ml-4' />
+          <img src='/cocktail_icon.png' alt='Cocktail icon' className='h-full ml-4' />
           <h1 className='text-xl ml-1 font-bold inline-block align-middle'>
             <span className='text-orange-200'>Dirty</span> Drinking
           </h1>
