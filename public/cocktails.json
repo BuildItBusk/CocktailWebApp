@@ -1,5 +1,29 @@
 [
     {
+        "name": "White Russian",
+        "ingredients": [
+            {
+                "name": "Vodka",
+                "quantity": 30,
+                "unit": "ml"
+            },
+            {
+                "name": "Coffee liqueur",
+                "quantity": 30,
+                "unit": "ml"
+            },
+            {
+                "name": "Cream",
+                "quantity": 30,
+                "unit": "ml"
+            }
+        ],
+        "recipe": "Pour coffee liqueur and vodka into an Old Fashioned glass filled with ice. Float fresh cream (can substitute with milk) on top and stir slowly.",
+        "image": "white-russian.jpg",
+        "story": "Unknown",
+        "video": ""
+    },
+    {
         "name": "Blood Drink",
         "ingredients": [
             {
