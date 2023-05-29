@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 
 function Root() {
   
+  console.log('Vite is running in:', import.meta.env.MODE)
+
   interface Cocktail {
     name: string;
     ingredients: {
