@@ -1,7 +1,7 @@
 import './root.css'
 import CardLink from './CardLink';
 import { Cocktail } from '../types';
-import { FormEvent, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 function Root() {
   const [cocktails, setCocktails] = useState<Cocktail[]>([]);
