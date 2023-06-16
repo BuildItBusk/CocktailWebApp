@@ -145,51 +145,36 @@
         "video": ""
     },
     {
-        "name": "Zombie",
+        "name": "Lover Club",
         "ingredients": [
             {
-                "name": "Dark Rum",
-                "quantity": 45,
+                "name": "Gin",
+                "quantity": 50,
                 "unit": "ml"
             },
             {
-                "name": "White Rum",
-                "quantity": 45,
+                "name": "Litchi juice",
+                "quantity": 40,
                 "unit": "ml"
             },
             {
-                "name": "Apricot Brandy",
+                "name": "Raspberry syrup",
                 "quantity": 30,
                 "unit": "ml"
             },
             {
-                "name": "Pineapple juice",
-                "quantity": 30,
+                "name": "Lemon juice",
+                "quantity": 20,
                 "unit": "ml"
             },
             {
-                "name": "Lime juice",
-                "quantity": 30,
-                "unit": "ml"
-            },
-            {
-                "name": "Papaya juice",
-                "quantity": 30,
-                "unit": "ml"
-            },
-            {
-                "name": "Sugar syrup",
-                "quantity": 15,
-                "unit": "ml"
-            },
-            {
-                "name": "151-proof rum",
-                "quantity": 15,
-                "unit": "ml"
+                "name": "Dried raspberry",
+                "quantity": 2,
+                "unit": "pcs"
             }
         ],
-        "recipe": "Shake all ingredients with crushed ice and open pour into glass. If needed add more crushed ice. Garnish with a sprig of mint.",
-        "image": "zombie.jpg",
+        "recipe": "Shake all ingredients with crushed ice strain into glass. Garnish with dried raspberries on stick or similar.",
+        "image": "lover-club.jpg",
         "story": ""
     },
     {
