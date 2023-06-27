@@ -229,5 +229,34 @@
         "image": "pina-colada.jpg",
         "story": "Unknown",
         "video": ""
+    },
+    {
+        "name": "The Pendennis Club",
+        "ingredients": [
+            {
+                "name": "Gin",
+                "quantity": 60,
+                "unit": "ml"
+            },
+            {
+                "name": "Apricot brandy",
+                "quantity": 40,
+                "unit": "ml"
+            },
+            {
+                "name": "Lemon juice",
+                "quantity": 20,
+                "unit": "ml"
+            },
+            {
+                "name": "Orange bitters",
+                "quantity": 2,
+                "unit": "dashes"
+            }
+        ],
+        "recipe": "Shake all ingredients with ice and strain into a chilled cocktail glass.",
+        "image": "the-pendennis-club.jpg",
+        "story": "Unknown",
+        "video": ""
     }
 ]
