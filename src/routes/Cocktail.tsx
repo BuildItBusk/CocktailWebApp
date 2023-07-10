@@ -51,7 +51,7 @@ const Cocktail = () => {
                 <ul className="list-disc ml-5">
                   {cocktail?.ingredients.map((ingredient) => (
                     <li key={ingredient.name} className="text-xl md:text-3xl">
-                        <span className="text-orange-200">{ingredient.quantity} {ingredient.unit}</span> {ingredient.name}
+                        <span className="dark:text-orange-200 text-orange-800">{ingredient.quantity} {ingredient.unit}</span> {ingredient.name}
                     </li>
                   ))}
                 </ul>
