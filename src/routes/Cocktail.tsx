@@ -43,7 +43,7 @@ const Cocktail = () => {
   return (
     <>
       <div className="container mx-auto">
-          <h1 className="text-4xl lg:text-6xl mb-6">{ cocktail?.name }</h1>
+          <h1 className="text-4xl lg:text-6xl m-6">{ cocktail?.name }</h1>
           <div className="flex justify-center items-center">
             <div className="w-max mx-10">
               <img src={imagePath} alt={cocktail?.name} className="mx-auto max-h-52 md:max-h-96 mb-6 rounded-lg" />
@@ -51,7 +51,7 @@ const Cocktail = () => {
                 <ul className="list-disc ml-5">
                   {cocktail?.ingredients.map((ingredient) => (
                     <li key={ingredient.name} className="text-xl md:text-3xl">
-                        <span className="text-orange-200">{ingredient.quantity} {ingredient.unit}</span> {ingredient.name}
+                        <span className="dark:text-orange-200 text-orange-800">{ingredient.quantity} {ingredient.unit}</span> {ingredient.name}
                     </li>
                   ))}
                 </ul>
