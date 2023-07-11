@@ -1,18 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-
-interface Cocktail {
-  name: string;
-  ingredients: {
-    name: string;
-    quantity: string | number;
-    unit: string;
-  }[];
-  recipe: string;
-  image: string;
-  story?: string;
-  video?: string;
-}
+import Tag from "./Tag";
+import { Cocktail } from "./types";
 
 type CocktailParams = {
   cocktailId: string
@@ -24,7 +13,7 @@ type CocktailParams = {
     .then((cocktails: Cocktail[]) => cocktails.find((c) => c.name === name) ?? null);
 }
 
-const Cocktail = () => {
+const CocktailPage = () => {
   const { cocktailId } = useParams<CocktailParams>();
   const cocktailIdString = cocktailId ?? '';
   const [cocktail, setCocktail] = useState<Cocktail | null>(null);
@@ -58,6 +47,13 @@ const Cocktail = () => {
                 <p className="mt-6 text-xl md:text-3xl">
                   {cocktail?.recipe}
                 </p>
+                {cocktail?.tags && cocktail.tags.length > 0 && (
+                <div className="flex flex-wrap gap-2 mt-6">
+                  {cocktail.tags.map((tag) => (
+                    <Tag key={tag} tagText={tag} />
+                  ))}
+                </div>
+              )}
               </div>
             </div>
           </div>
@@ -66,4 +62,4 @@ const Cocktail = () => {
   )
 }
 
-export default Cocktail;
+export default CocktailPage;

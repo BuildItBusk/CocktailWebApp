@@ -21,7 +21,13 @@
         "recipe": "Pour coffee liqueur and vodka into an Old Fashioned glass filled with ice. Float fresh cream (can substitute with milk) on top and stir slowly.",
         "image": "white-russian.jpg",
         "story": "Unknown",
-        "video": ""
+        "video": "",
+        "tags": [
+            "vodka",
+            "coffee",
+            "creamy",
+            "sweet"
+        ]
     },
     {
         "name": "Blood Drink",

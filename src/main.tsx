@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Root from './routes/root.tsx'
 import './index.css'
-import Cocktail from './routes/Cocktail.tsx';
+import CocktailPage from './routes/CocktailPage.tsx';
 import ErrorPage from './routes/error-page';
 
 const router = createBrowserRouter([
@@ -14,7 +14,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/cocktail/:cocktailId",
-    element: <Cocktail />
+    element: <CocktailPage />
   }
 ]);
 

@@ -11,4 +11,5 @@ export interface Cocktail {
   image: string;
   story: string;
   video: string;
+  tags: string[];
 }
