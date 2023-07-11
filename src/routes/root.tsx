@@ -1,6 +1,6 @@
 import './root.css'
 import CardLink from './CardLink';
-import { Cocktail } from '../types';
+import { Cocktail } from './types';
 import { useEffect, useState } from "react";
 
 function Root() {
