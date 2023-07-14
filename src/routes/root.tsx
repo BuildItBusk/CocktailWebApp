@@ -43,10 +43,16 @@ function Root() {
         (ingredient) =>
           ingredient.name.toLowerCase() == keyword.toLowerCase()
       );
+
+      const matchingTags = (cocktail.tags ||  []).filter(
+        (tag) =>
+          tag.toLowerCase() == keyword.toLowerCase()
+      );
   
       if (
         name.toLowerCase().includes(keyword.toLowerCase()) ||
-        matchingIngredients.length > 0
+        matchingIngredients.length > 0 ||
+        matchingTags.length > 0
       ) {
         result.push(cocktail);
       }
