@@ -80,7 +80,15 @@
         "recipe": "Shake all ingredients with crushed ice, or mix in it a milkshake machine. Open pour into a hurricane glass. Grate with nutmeg and serve.",
         "image": "painkiller.jpg",
         "story": "Unknown",
-        "video": ""
+        "video": "",
+        "tags": [
+            "tiki",
+            "rum",
+            "pineapple",
+            "orange",
+            "coconut",
+            "creamy"
+        ]
     },
     {
         "name": "Diaquiri",
@@ -104,7 +112,11 @@
         "recipe": "Shake all ingredients with plenty of ice and double strain into a Nick & Nora glass",
         "image": "diaquiri.jpg",
         "story": "The daiquiri is a cocktail made of rum, lime juice, and sugar, typically served over ice. It originated in Cuba, and its exact origins are somewhat disputed, but it is generally agreed that the drink was named after a beach near Santiago de Cuba. One popular story holds that the drink was invented by an American mining engineer named Jennings Cox, who was in Cuba during the Spanish-American War. According to this account, Cox ran out of gin while entertaining guests and used rum instead, adding lime and sugar to make the drink more palatable. Another theory suggests that the drink was actually created by Cuban workers in the town of Daiquiri, who mixed rum with lime juice and sugar to make a refreshing beverage. Regardless of its exact origins, the daiquiri gained popularity among Americans who visited Cuba during Prohibition, and the drink was soon being served in bars across the United States. In the 1940s, the daiquiri became a popular drink among Hollywood celebrities, and it remains a classic cocktail today. Over the years, variations of the daiquiri have emerged, including the frozen daiquiri and the strawberry daiquiri. However, the classic recipe remains a popular choice among cocktail enthusiasts, who appreciate its simplicity and refreshing taste.",
-        "video": ""
+        "video": "",
+        "tags": [
+            "rum",
+            "lime"
+        ]
     },
     {
         "name": "Mai Tai",
@@ -148,7 +160,12 @@
         "recipe": "Shake all ingredients with crushed ice and open pour into a tiki mug. Add more crushed ice if needed. Garnish with a sprig of mint and serve with a short straw.",
         "image": "mai-tai.jpg",
         "story": "",
-        "video": ""
+        "video": "",
+        "tags": [
+            "tiki",
+            "rum",
+            "lime"
+        ]
     },
     {
         "name": "Lover Club",
@@ -181,7 +198,14 @@
         ],
         "recipe": "Shake all ingredients with crushed ice strain into glass. Garnish with dried raspberries on stick or similar.",
         "image": "lover-club.jpg",
-        "story": ""
+        "story": "",
+        "video": "",
+        "tags": [
+            "gin",
+            "raspberry",
+            "fruity",
+            "sweet"
+        ]
     },
     {
         "name": "Floradora",
@@ -234,7 +258,14 @@
         "recipe": "Blend all the ingredients with ice in a electric blender or shake with crushed ice. Open pour into a large goblet or Hurricane glass.",
         "image": "pina-colada.jpg",
         "story": "Unknown",
-        "video": ""
+        "video": "",
+        "tags": [
+            "tiki",
+            "rum",
+            "pineapple",
+            "coconut",
+            "creamy"
+        ]
     },
     {
         "name": "The Pendennis Club",
@@ -301,7 +332,14 @@
         ],
         "recipe": "Shake with crushed ice and open pour into a glass. Garnish with a cherry.",
         "image": "sharks-tooth.jpg",
-        "story": ""
+        "story": "",
+        "tags": [
+            "tiki",
+            "rum",
+            "lime",
+            "pineapple",
+            "sweet"
+        ]
     },
     {
         "name": "Bees Knees",
